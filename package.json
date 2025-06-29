@@ -1,0 +1,23 @@
+{
+  "name": "disabled-scope",
+  "description": "A utility that ensures focus remains outside a specific DOM region.",
+  "repository": {
+    "type": "git",
+    "url": "https://hangem422@github.com/hangem422/disabled-scope.git"
+  },
+  "type": "module",
+  "author": "Hant <hangem422@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.0.7",
+    "@typescript-eslint/eslint-plugin": "^8.35.0",
+    "@typescript-eslint/parser": "^8.35.0",
+    "eslint": "^9.30.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.5.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.35.0"
+  }
+}
