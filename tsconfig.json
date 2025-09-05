@@ -1,21 +1,18 @@
 {
+  "files": [],
+  "references": [
+    { "path": "./packages/disabled-scope-core" },
+    { "path": "./packages/disabled-scope-react" }
+  ],
   "compilerOptions": {
-    "target": "es2015",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "module": "es2015",
-    "moduleResolution": "node",
+    "composite": true,
     "declaration": true,
     "declarationMap": true,
-    "sourceMap": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "esnext",
     "strict": true,
-    "strictNullChecks": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "skipDefaultLibCheck": true,
+    "esModuleInterop": true,
     "skipLibCheck": true
   }
 }

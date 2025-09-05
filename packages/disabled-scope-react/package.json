@@ -1,7 +1,7 @@
 {
-  "name": "disabled-scope-core",
+  "name": "disabled-scope-react",
   "version": "1.0.0",
-  "description": "The framework agnostic core that powers disabled scope",
+  "description": "Disabled scope in React",
   "author": "Hant <hangem422@gmail.com>",
   "repository": {
     "type": "git",
@@ -19,5 +19,12 @@
   "scripts": {
     "build": "tsc -b",
     "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "react": "^19.1.1"
+  },
+  "peerDependencies": {
+    "react": "^19.1.1"
   }
 }
