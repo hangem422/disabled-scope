@@ -6,5 +6,8 @@
     "target": "esnext"
   },
   "include": ["src"],
-  "references": []
+  "exclude": ["node_modules", "dist", "**/*.spec.ts", "**/*.test.ts"],
+  "references": [
+    { "path": "./tsconfig.spec.json" }
+  ],
 }
